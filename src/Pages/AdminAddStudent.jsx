@@ -196,7 +196,7 @@ const AdminAddStudent = () => {
                         <input
                           onChange={(e) => setContactNumber(e.target.value)}
                           required
-                          type="number"
+                          type="tel"
                           class="form-control"
                           id="numberId"
                         />
